@@ -1,0 +1,128 @@
+16:13:40 **** Build of configuration Debug for project fghfgh ****
+make all 
+Building file: ../hello.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hello.d" -MT"hello.o" -o "hello.o" "../hello.c"
+../hello.c: In function ‘main’:
+../hello.c:2:2: warning: implicit declaration of function ‘print’ [-Wimplicit-function-declaration]
+  print("Hello World!");
+  ^
+Finished building: ../hello.c
+ 
+Building target: fghfgh
+Invoking: GCC C Linker
+gcc  -o "fghfgh"  ./hello.o   
+./hello.o: In function `main':
+/afs/inf.ed.ac.uk/user/s16/s1631442/Documents/CS/fghfgh/Debug/../hello.c:2: undefined reference to `print'
+collect2: error: ld returned 1 exit status
+make: *** [fghfgh] Error 1
+16:17:00 **** Incremental Build of configuration Debug for project fghfgh ****
+make all 
+Building target: fghfgh
+Invoking: GCC C Linker
+gcc  -o "fghfgh"  ./hello.o   
+./hello.o: In function `main':
+/afs/inf.ed.ac.uk/user/s16/s1631442/Documents/CS/fghfgh/Debug/../hello.c:2: undefined reference to `print'
+collect2: error: ld returned 1 exit status
+make: *** [fghfgh] Error 1
+16:17:13 **** Incremental Build of configuration Debug for project fghfgh ****
+make all 
+Building file: ../hello.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hello.d" -MT"hello.o" -o "hello.o" "../hello.c"
+../hello.c:1:2: warning: #import is a deprecated GCC extension [-Wdeprecated]
+ #import <iostream.h>
+  ^
+../hello.c:1:21: fatal error: iostream.h: No such file or directory
+ #import <iostream.h>
+                     ^
+compilation terminated.
+make: *** [hello.o] Error 1
+16:17:19 **** Incremental Build of configuration Debug for project fghfgh ****
+make all 
+Building file: ../hello.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hello.d" -MT"hello.o" -o "hello.o" "../hello.c"
+../hello.c:1:2: warning: #import is a deprecated GCC extension [-Wdeprecated]
+ #import <iostream.h>
+  ^
+../hello.c:1:21: fatal error: iostream.h: No such file or directory
+ #import <iostream.h>
+                     ^
+compilation terminated.
+make: *** [hello.o] Error 1
+16:17:22 **** Incremental Build of configuration Debug for project fghfgh ****
+make all 
+Building file: ../hello.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hello.d" -MT"hello.o" -o "hello.o" "../hello.c"
+../hello.c:1:2: warning: #import is a deprecated GCC extension [-Wdeprecated]
+ #import <iostream.h>
+  ^
+../hello.c:1:21: fatal error: iostream.h: No such file or directory
+ #import <iostream.h>
+                     ^
+compilation terminated.
+make: *** [hello.o] Error 1
+16:17:28 **** Incremental Build of configuration Debug for project fghfgh ****
+make all 
+Building file: ../hello.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hello.d" -MT"hello.o" -o "hello.o" "../hello.c"
+Finished building: ../hello.c
+ 
+Building target: fghfgh
+Invoking: GCC C Linker
+gcc  -o "fghfgh"  ./hello.o   
+Finished building target: fghfgh
+ 
+16:17:37 **** Incremental Build of configuration Debug for project fghfgh ****
+make all 
+make: Nothing to be done for `all'.
+17:05:25 **** Incremental Build of configuration Debug for project fghfgh ****
+make all 
+Building file: ../hello.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hello.d" -MT"hello.o" -o "hello.o" "../hello.c"
+../hello.c: In function ‘turn_pig_latin’:
+../hello.c:158:65: warning: value computed is not used [-Wunused-value]
+                 is_all_capital &&(is_capital_character(word[n]) || is_hyphen(word[n]));
+                                                                 ^
+../hello.c:170:25: warning: ‘i’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+         if(is_vowel(word[i+1]))
+                         ^
+Finished building: ../hello.c
+ 
+Building target: fghfgh
+Invoking: GCC C Linker
+gcc  -o "fghfgh"  ./hello.o   
+Finished building target: fghfgh
+ 
+17:28:46 **** Incremental Build of configuration Debug for project fghfgh ****
+make all 
+Building file: ../hello.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hello.d" -MT"hello.o" -o "hello.o" "../hello.c"
+../hello.c: In function ‘turn_pig_latin’:
+../hello.c:159:69: warning: value computed is not used [-Wunused-value]
+                     is_all_capital &&(is_capital_character(word[n]) || is_hyphen(word[n]));
+                                                                     ^
+Finished building: ../hello.c
+ 
+Building target: fghfgh
+Invoking: GCC C Linker
+gcc  -o "fghfgh"  ./hello.o   
+Finished building target: fghfgh
+ 
+17:38:06 **** Incremental Build of configuration Debug for project fghfgh ****
+make all 
+Building file: ../hello.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hello.d" -MT"hello.o" -o "hello.o" "../hello.c"
+Finished building: ../hello.c
+ 
+Building target: fghfgh
+Invoking: GCC C Linker
+gcc  -o "fghfgh"  ./hello.o   
+Finished building target: fghfgh
+ 
